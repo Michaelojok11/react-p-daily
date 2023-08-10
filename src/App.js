@@ -1,25 +1,19 @@
+import {useState} from 'react';
 import './App.css';
+
 // react components
 
-const Person = () => {
-  return (
-    <> 
-    <h1>  Name: Michael </h1>
-    <h2> Last Name: Ojok </h2>
-    <h2> Age: 27 </h2>
-    </>  
-  )
-}
+
+
+// props allows you to pass data through dynamic components of react
 
 
 const App = () => { 
   return (
     <div className="App">
-    <Person />
-    <Person />
-    <Person />
-    <Person />
-    <Person />
+    <button> - </button>
+    <h1> 0 </h1>
+    <button> + </button>
    
     </div>
   );
