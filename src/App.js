@@ -1,13 +1,22 @@
 import './App.css';
+// react components
 
-const App = () => {
-  // inserted real javascript code
-  const name = 'Michael';
-  const isNameShowing = false;
+const Person = () => {
+  return (
+    <> 
+    <h1>  Name: Michael </h1>
+    <h2> Last Name: Ojok </h2>
+    <h2> Age: 27 </h2>
+    </>  
+  )
+}
+
+
+const App = () => { 
   return (
     <div className="App">
-    <h1> Hello, {isNameShowing ? name : 'someone' }! </h1>
-     
+    <Person />
+   
     </div>
   );
 }
